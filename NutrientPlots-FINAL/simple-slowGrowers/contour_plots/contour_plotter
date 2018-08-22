@@ -1,0 +1,19 @@
+reset
+set terminal pngcairo enhanced font "arial,12" size 820, 600 
+set output 'simple-slowGrowers-S_Vs_C-contours.png'
+set key noautotitle
+stats 'simple-slowGrowers_nutrients_vs_antibiotic-contourPlot-FINAL.txt' using 3 name 'z' nooutput
+
+set title 'slow-growers population, nutrients vs constant antibiotic' font ", 20" offset (100,0)
+set tic font ", 12"
+set xlabel font ", 20"
+set xlabel 'Nutrients per microhabitat'
+set ylabel 'Antibiotic concentration' font ", 20"
+set cblabel font ", 20" offset -5,0
+set view map
+
+set cbtics 0, z_max
+set cblabel 'Population'
+
+splot 'simple-slowGrowers_nutrients_vs_antibiotic-contourPlot-FINAL.txt' u 2:1:3 w pm3d
+

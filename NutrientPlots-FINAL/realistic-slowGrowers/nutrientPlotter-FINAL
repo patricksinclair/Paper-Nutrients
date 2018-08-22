@@ -1,0 +1,55 @@
+reset
+set t pngcairo size 840, 560 enhanced
+set key outside right top vertical Left enhanced noautotitle nobox
+
+growthSpeed = 'slow'
+modelType = 'realistic'
+preciseVal = ''
+filepath='/home/s1212500/PhD/NutrientPlots-FINAL/'.modelType.'-'.growthSpeed.'Growers/plots/'
+
+specific_alpha = '0.004884694070738408'
+alphaVal = '0.02'
+set xrange [0:250]
+duration=2000.0
+nMeasurements=20.0
+interval=duration/nMeasurements
+
+max_col = 22
+########### - POPULATION DISTRIBUTIONS - #####################
+set out filepath.''.modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-spatialDistb'.preciseVal.'.png'
+set title '"realistic" '.growthSpeed.' growers - α = '.alphaVal.' - spatial distb^n' font ",16"
+set ylabel 'Population' font ",20"
+set xlabel 'Microhabitat' font ",20"
+
+plot for [i=2:max_col] modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-spatialDistribution'.preciseVal.'-FINAL.txt' u 1:i w l title sprintf('t=%.0f', (i-2)*interval)
+
+
+########### - GROWTH RATE DISTRIBUTIONS - ################
+set out filepath.''.modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-gRateDistb'.preciseVal.'.png'
+set title '"realistic" '.growthSpeed.' growers - alpha = '.alphaVal.' - gRate distb'
+set ylabel 'Growth rate'
+set xlabel 'Microhabitat'
+
+plot for [i=2:max_col] modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-gRateDistribution'.preciseVal.'-FINAL.txt' u 1:i w l title sprintf('t=%.0f', (i-2)*interval)
+
+####### - PRECISE POPULATION DISTRIBUTIONS - ######################
+preciseVal = '_precise'
+preciseDuration = duration/5.0
+preciseInterval = preciseDuration/nMeasurements
+
+set out filepath.''.modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-spatialDistb'.preciseVal.'.png'
+set title '"realistic" '.growthSpeed.' growers - α = '.alphaVal.' - spatial distb^n' font ",16"
+set ylabel 'Population' font ",20"
+set xlabel 'Microhabitat' font ",20"
+
+plot for [i=2:max_col] modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-spatialDistribution'.preciseVal.'-FINAL.txt' u 1:i w l title sprintf('t=%.0f', (i-2)*preciseInterval)
+
+
+########### - PRECISE GROWTH RATE DISTRIBUTIONS - ################
+set out filepath.''.modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-gRateDistb'.preciseVal.'.png'
+set title '"realistic" '.growthSpeed.' growers - alpha = '.alphaVal.' - gRate distb'
+set ylabel 'Growth rate'
+set xlabel 'Microhabitat'
+
+plot for [i=2:max_col] modelType.'-'.growthSpeed.'Growers-alpha='.alphaVal.'-gRateDistribution'.preciseVal.'-FINAL.txt' u 1:i w l title sprintf('t=%.0f', (i-2)*preciseInterval)
+
