@@ -69,7 +69,6 @@
          id="stop6484" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient6424"
        osb:paint="gradient">
       <stop
@@ -133,8 +132,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="349.08134"
-     inkscape:cy="917.32952"
+     inkscape:cx="387.13585"
+     inkscape:cy="886.21682"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -155,7 +154,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -792,47 +791,49 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:-0.18520834px;word-spacing:0px;text-anchor:middle;fill:#668000;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="44.836674"
-       y="73.775696"
+       x="44.649586"
+       y="25.132643"
        id="text5485"><tspan
          sodipodi:role="line"
          id="tspan5483"
-         x="44.744068"
-         y="73.775696"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#668000;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="44.55698"
+         y="25.132643"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#668000;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          dy="2.52">Slow-growing</tspan><tspan
          sodipodi:role="line"
-         x="44.744068"
-         y="81.896477"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#668000;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan5487">bulk</tspan><tspan
+         x="44.55698"
+         y="33.61998"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#668000;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan5487"
+         dy="-1.25">bulk</tspan><tspan
          sodipodi:role="line"
-         x="44.744068"
-         y="90.01725"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#ffb380;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan5491">Low nutrients</tspan></text>
+         x="44.649586"
+         y="42.107319"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#ffb380;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan5491" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e5ff80;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="158.2003"
-       y="74.411018"
+       x="158.57448"
+       y="24.084167"
        id="text5485-1"><tspan
          sodipodi:role="line"
          id="tspan5483-9"
-         x="158.1077"
-         y="74.411018"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#e5ff80;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="158.48187"
+         y="24.084167"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#e5ff80;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          dy="2.2300012">Fast-growing</tspan><tspan
          sodipodi:role="line"
-         x="158.1077"
-         y="82.531799"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#e5ff80;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan5487-3">tip</tspan><tspan
+         x="158.48187"
+         y="32.571507"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#e5ff80;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan5487-3"
+         dy="-1.25">tip</tspan><tspan
          sodipodi:role="line"
-         x="158.1077"
-         y="90.652573"
-         style="font-size:5.64444447px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#ff6600;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan5491-1">High nutrients</tspan></text>
+         x="158.57448"
+         y="41.058842"
+         style="font-size:4.23333311px;text-align:center;letter-spacing:-0.18520834px;text-anchor:middle;fill:#ff6600;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan5491-1" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.1189332px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22246666px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -881,12 +882,51 @@
          x="148.47632"
          y="40.987984"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.34396029px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.22949876px">L</tspan></text>
-    <rect
-       style="opacity:1;fill:none;stroke:#000080;stroke-width:0.87175745;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6136"
-       width="160.12486"
-       height="63.788582"
-       x="23.744637"
-       y="29.352287" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot944"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion946"
+         style="fill:#ffb380;stroke:#000000;stroke-opacity:1;"><rect
+           id="rect948"
+           width="107.48022"
+           height="38.183765"
+           x="111.72287"
+           y="63.273754"
+           style="fill:#ffb380;stroke:#000000;stroke-opacity:1;" /></flowRegion><flowPara
+         id="flowPara950">Low nutrientsLow nutrients</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="30.121271"
+       y="76.422462"
+       id="text954"><tspan
+         sodipodi:role="line"
+         id="tspan952"
+         x="30.121271"
+         y="76.422462"
+         style="font-size:4.23333311px;fill:#ffb380;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none">Low nutrients</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="154.53523"
+       y="26.469793"
+       id="text958"><tspan
+         sodipodi:role="line"
+         id="tspan956"
+         x="154.53523"
+         y="35.833561"
+         style="stroke-width:0.26458332px"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="143.68408"
+       y="76.422462"
+       id="text962"><tspan
+         sodipodi:role="line"
+         id="tspan960"
+         x="143.68408"
+         y="76.422462"
+         style="fill:#ff6600;stroke:#000000;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">High nutrients</tspan></text>
   </g>
 </svg>
